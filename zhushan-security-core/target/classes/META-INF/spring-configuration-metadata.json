@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zhushan.security.core.properties.SecurityProperties",
+      "name": "zhushan.security",
+      "type": "com.zhushan.security.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zhushan.security.core.properties.SecurityProperties",
+      "name": "zhushan.security.browser",
+      "type": "com.zhushan.security.core.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.zhushan.security.core.properties.SecurityProperties",
+      "name": "zhushan.security.code",
+      "type": "com.zhushan.security.core.properties.ValidateCodeProperties"
+    },
+    {
+      "sourceType": "com.zhushan.security.core.properties.SecurityProperties",
+      "name": "zhushan.security.oauth2",
+      "type": "com.zhushan.security.core.properties.OAuth2Properties"
+    },
+    {
+      "sourceType": "com.zhushan.security.core.properties.SecurityProperties",
+      "name": "zhushan.security.social",
+      "type": "com.zhushan.security.core.properties.SocialProperties"
+    }
+  ]
+}
